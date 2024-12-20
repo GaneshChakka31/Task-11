@@ -1,0 +1,26 @@
+    body{
+        background-image: url(https://t4.ftcdn.net/jpg/06/91/05/19/360_F_691051962_GFhQPOAXABmf7l706q89b2PFh6FnB1kI.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+        justify-content: center;
+       
+    }
+    
+    .error {
+    color: red;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        padding-top:5% ;
+        padding-bottom: 5%;
+    }
+    #registrationForm{
+        max-width: 700px; padding: 15px ;
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 5px 5px 25px white; 
+        border-radius:30px;
+        backdrop-filter: blur(7px);
+    }
